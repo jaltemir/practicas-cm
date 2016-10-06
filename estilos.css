@@ -1,0 +1,42 @@
+article{
+  float:left;
+  width: 100 px;
+  border: 10 px;
+  
+
+}
+
+#contenedor{
+	width: 900px;
+	
+}
+
+img{
+	width: 350px;
+	height: 350px;
+
+}
+
+body{
+	background-image: url('http://imagenes.4ever.eu/data/download/arte/musica/gramofono,-disco-de-vinilo-167203.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+h1{
+	color: yellow;
+	font-size: 65px;
+	text-align: center;
+	position: relative;
+	bottom: 150px;
+	font-family: sans-serif,arial; 
+}
+
+.penguin{
+		width: 175px;
+		height: 175px;
+		position: relative;
+		left: 1100px;
+		
+	}
