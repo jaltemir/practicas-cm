@@ -1,0 +1,8 @@
+mixin picture(sourceImage, name, price)
+	div.col-md-6.product-box
+		img(src=sourceImage, width="200").img-rounded
+		br
+		input(type='button', value='#{name}', onclick="comprar('#{name}', '#{price}');")
+
+
+
