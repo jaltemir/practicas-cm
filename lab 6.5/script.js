@@ -32,7 +32,7 @@ $( document).ready(function(){
 	var Pala = function(x_start,y_end){
         this.color_pala = "#336699";
         this.position = {x:x_start, y:0};
-        this.size = {w:3, h:40};
+        this.size = {w:10, h:100};
         this.y_end = y_end;
     };
     Pala.prototype.render = function(ctx){
@@ -62,9 +62,9 @@ $( document).ready(function(){
 
     var Bola = function(start_pos_x, start_pos_y){
         this.position = {x:start_pos_x, y:start_pos_y};
-        this.color_bola = "#FF0000";
-        this.size = {w:5, h:5};
-        this.angle =  170;
+        this.color_bola = "#FE2EC8";
+        this.size = {w:15, h:15};
+        this.angle =  110;
     }
     Bola.prototype.render = function(ctx){
         ctx.fillStyle = this.color_bola;
