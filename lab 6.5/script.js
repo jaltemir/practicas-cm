@@ -93,6 +93,13 @@ $( document).ready(function(){
             bola.angle -=180;
         }
 
+        if(bola.position.x < 25){
+        	if(bola.position.y > pala_L.position.y-bola.size.h && bola.position.y < pala_L.position.y + pala_L.size.h){bola.angle=(180-bola.angle)+180;}
+        } else if(bola.position.x > canvas.width-25-bola.size.w){
+        	if(bola.position.y > pala_R.position.y-bola.size.h && bola.position.y < pala_R.position.y + pala_R.size.h){bola.angle=(180-bola.angle)+180;}
+        }
+
+
         bola.position.x += Math.sin(bola.angle * Math.PI / 180.0) * 3;
         bola.position.y += Math.cos(bola.angle * Math.PI / 180.0) * 3;
     }
