@@ -1,0 +1,37 @@
+body {
+background-color: black;
+color: white;
+text-align:center;
+}
+h1 {
+font-size:80px;
+}
+h3 {
+font-size:40px;
+}
+
+#addhomescore {
+background-color: green;
+font-size:30px;
+}
+#minushomescore {
+background-color: red;
+font-size:30px;
+}
+#homescore {
+background-color: white;
+font-size:30px;
+}
+#addguestscore {
+background-color: green;
+font-size:30px;
+}
+#minusguestscore {
+background-color: red;
+font-size:30px;
+}
+#guestscore {
+background-color: white;
+font-size:30px;
+}
+
