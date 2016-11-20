@@ -1,0 +1,29 @@
+h1{
+	color: #000FF7F};
+}
+h2{
+	color: red;
+}
+
+body{
+	font-family: Arial;
+	font-size: 24px;
+}
+
+img{
+	width:200px;
+	height:200px;
+}
+
+/*Este es un contenedor de un identificador único*/
+/* es para modificar los id's que son únicos */
+#contenedor{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* con punto modifico las clases */
+
+.azul{
+	color:blue;
+}

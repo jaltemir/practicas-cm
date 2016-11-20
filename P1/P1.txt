@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="diseño, programación, animación 2D-3D, audio, video, señales y sistemas">
+</head>
+<body>
+<header>
+ <h1> Jordi Altemir </h1> 
+ <img src="images/foto.jpg" alt="foto.jpg">
+</header>
+<section>
+<h2>DATOS PERSONALES</h2>
+<ul>
+<li>Nombre y Apellidos:
+<li>Estado civil:
+<li>Carnet de Conducir:
+<li>E-mail: <a href="mailto:prueba@prueba.com"> prueba@prueba.com  </a>
+</ul>
+</section>
+<section>
+<h2>ESTUDIOS OFICIALES CURSADOS</h2>
+<ul>
+<li>
+<li>
+<li>
+</ul>
+</section>
+<section>
+<h2>OTROS ESTUDIOS</h2>
+<ul>
+<li>
+<li>
+<li>
+</ul>
+</section>
+<section>
+<h2>IDIOMAS</h2>
+<ul>
+<li>
+<li>
+<li>
+</ul>
+</section>
+<section>
+<h2>EXPERIENCIA LABORAL</h2>
+<ul>
+<li>
+<li>
+<li>
+</ul>
+</section>
+
+
